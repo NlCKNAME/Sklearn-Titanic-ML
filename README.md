@@ -13,3 +13,8 @@ The possible endpoint are :
 - `/ML/Titanic/Score/` : Get the model score
 - `/ML/Titanic/Train/<number>` : Train model with first n-number data from initial dataset
 - `/ML/Titanic/Predict/<Pclass>/<male>/<age>/<SisSpouse>/<ParentChild>/<Fare>` : Predict the output for specific passenger
+
+### To Do
+- Add error handler on API
+- System to save/load ML model
+- Generate chart with Matplotlib
