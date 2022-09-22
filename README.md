@@ -1,5 +1,5 @@
 # Sklearn-Titanic-ML
-Simple machine learning model to predict the chance of servive of Titanic's passengers 
+Simple machine learning model to predict the chance of survive of Titanic's passengers 
 
 This repositorie contain :
  - Initial file from Sololearn course : main.py
