@@ -34,7 +34,7 @@ model = LogisticRegression()
 model.fit(X, y)
 
 print("DONE !")
-print("Model Score : ", model.score())
+print("Model Score : ", model.score(X, y))
 
 # -------------------------------------------------------------
 # In this part, we set and configure API endpoint
