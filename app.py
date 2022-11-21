@@ -13,6 +13,8 @@ from sklearn.linear_model import LogisticRegression
 from flask import Flask, render_template, jsonify
 import io
 
+version = "1.0.0"
+
 #Create server
 app = Flask(__name__)
 
@@ -39,6 +41,10 @@ print("Model Score : ", model.score(X, y))
 # -------------------------------------------------------------
 # In this part, we set and configure API endpoint
 # -------------------------------------------------------------
+
+@app.route('/')
+def Default():
+    return jsonify(1)
 
 @app.route('/ML/Titanic/Score')
 def Score():
